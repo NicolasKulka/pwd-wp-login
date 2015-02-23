@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PWD WP Login 1.0\n"
 "Report-Msgid-Bugs-To: http://www.plateformewpdigital.fr/\n"
-"POT-Creation-Date: 2015-02-23 08:32:44+00:00\n"
+"POT-Creation-Date: 2015-02-23 09:14:07+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,12 +24,8 @@ msgstr ""
 "X-Poedit-Bookmarks: \n"
 "X-Textdomain-Support: yes\n"
 
-#: classes/plugin.php:33
+#: classes/plugin.php:33 classes/plugin.php:38
 msgid "Login page"
-msgstr ""
-
-#: classes/plugin.php:38
-msgid "Login"
 msgstr ""
 
 #: classes/plugin.php:49
@@ -61,11 +57,11 @@ msgid "Adjust font login page"
 msgstr ""
 
 #: classes/plugin.php:120
-msgid "'Open Sans',sans-serif"
+msgid "\"Open Sans\",sans-serif"
 msgstr ""
 
 #: classes/plugin.php:121
-msgid "'PT Sans',Arial"
+msgid "\"PT Sans\",Arial"
 msgstr ""
 
 #: classes/plugin.php:122
@@ -73,66 +69,66 @@ msgid "Arial, Helvetica, sans-serif"
 msgstr ""
 
 #: classes/plugin.php:123
-msgid "'Arial Black', Gadget, sans-serif"
+msgid "\"Arial Black\", Gadget, sans-serif"
 msgstr ""
 
 #: classes/plugin.php:124
-msgid "'Bookman Old Style', serif"
+msgid "\"Bookman Old Style\", serif"
 msgstr ""
 
 #: classes/plugin.php:125
-msgid "'Comic Sans MS', cursive"
+msgid "\"Comic Sans MS\", cursive"
 msgstr ""
 
 #: classes/plugin.php:126
 msgid "Courier, monospace"
 msgstr ""
 
-#: classes/plugin.php:127 classes/plugin.php:128
+#: classes/plugin.php:127
 msgid "Garamond, serif"
 msgstr ""
 
-#: classes/plugin.php:129
+#: classes/plugin.php:128
 msgid "Georgia, serif"
 msgstr ""
 
-#: classes/plugin.php:130
+#: classes/plugin.php:129
 msgid "Impact, Charcoal, sans-serif"
 msgstr ""
 
+#: classes/plugin.php:130
+msgid "\"Lucida Console\", Monaco, monospace"
+msgstr ""
+
 #: classes/plugin.php:131
-msgid "'Lucida Console', Monaco, monospace"
+msgid "\"Lucida Sans Unicode\", \"Lucida Grande\", sans-serif"
 msgstr ""
 
 #: classes/plugin.php:132
-msgid "'Lucida Sans Unicode', 'Lucida Grande', sans-serif"
+msgid "\"MS Sans Serif\", Geneva, sans-serif"
 msgstr ""
 
 #: classes/plugin.php:133
-msgid "'MS Sans Serif', Geneva, sans-serif"
+msgid "\"MS Serif\", \"New York\", sans-serif"
 msgstr ""
 
 #: classes/plugin.php:134
-msgid "'MS Serif', 'New York', sans-serif"
+msgid "\"Palatino Linotype\", \"Book Antiqua\", Palatino, serif"
 msgstr ""
 
 #: classes/plugin.php:135
-msgid "'Palatino Linotype', 'Book Antiqua', Palatino, serif"
-msgstr ""
-
-#: classes/plugin.php:136
 msgid "Tahoma, Geneva, sans-serif"
 msgstr ""
 
+#: classes/plugin.php:136
+msgid "\"Times New Roman\", Times, serif"
+msgstr ""
+
 #: classes/plugin.php:137
-msgid "'Times New Roman', Times, serif"
+msgid "\"Trebuchet MS\", Helvetica, sans-serif"
 msgstr ""
 
 #: classes/plugin.php:138
-msgid "'Trebuchet MS', Helvetica, sans-serif"
-msgstr ""
-
-#: classes/plugin.php:139
 msgid "Verdana, Geneva, sans-serif"
 msgstr ""
 
