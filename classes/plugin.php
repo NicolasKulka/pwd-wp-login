@@ -35,12 +35,12 @@ class PWD_LOGIN_Plugin {
 			) );
 		}
 		$wp_customize->add_section( 'custom_login_section', array(
-			'title'         => __( 'Login', 'pwd-wp-login' ),
+			'title'         => __( 'Login page', 'pwd-wp-login' ),
 			'priority'  => 35,
 			'panel'     => 'panel_custom_login',
 			) );
 
-		/*Login*/
+		/*Login page*/
 		$wp_customize->add_setting( 'pwd_login' );
 		$wp_customize->add_control( new WP_Customize_Image_Control(
 			$wp_customize,
@@ -107,7 +107,7 @@ class PWD_LOGIN_Plugin {
 			)
 		));
 
-		$wp_customize->add_setting( 'pwd_login_police', array( 'default' => "'Open Sans',sans-serif" ) );
+		$wp_customize->add_setting( 'pwd_login_police', array( 'default' => '"Open Sans",sans-serif' ) );
 		$wp_customize->add_control( new WP_Customize_Control(
 			$wp_customize,
 			'pwd_login_police',
@@ -117,26 +117,25 @@ class PWD_LOGIN_Plugin {
 				'settings' => 'pwd_login_police',
 				'type'     => 'select',
 				'choices'  => array(
-					"'Open Sans',sans-serif"								=> __( "'Open Sans',sans-serif" ),
-					"'PT Sans',Arial" 										=> __( "'PT Sans',Arial" ),
-					"Arial, Helvetica, sans-serif" 							=> __( "Arial, Helvetica, sans-serif" ),
-					"'Arial Black', Gadget, sans-serif"  					=> __( "'Arial Black', Gadget, sans-serif" ),
-					"'Bookman Old Style', serif"  							=> __( "'Bookman Old Style', serif" ),
-					"'Comic Sans MS', cursive"  							=> __( "'Comic Sans MS', cursive" ),
-					"Courier, monospace"  									=> __( "Courier, monospace" ),
-					"Garamond, serif"  										=> __( "Garamond, serif" ),
-					"Garamond, serif"  										=> __( "Garamond, serif" ),
-					"Georgia, serif"  										=> __( "Georgia, serif" ),
-					"Impact, Charcoal, sans-serif"  						=> __( "Impact, Charcoal, sans-serif" ),
-					"'Lucida Console', Monaco, monospace"  					=> __( "'Lucida Console', Monaco, monospace" ),
-					"'Lucida Sans Unicode', 'Lucida Grande', sans-serif"  	=> __( "'Lucida Sans Unicode', 'Lucida Grande', sans-serif" ),
-					"'MS Sans Serif', Geneva, sans-serif"  					=> __( "'MS Sans Serif', Geneva, sans-serif" ),
-					"'MS Serif', 'New York', sans-serif"  					=> __( "'MS Serif', 'New York', sans-serif" ),
-					"'Palatino Linotype', 'Book Antiqua', Palatino, serif"  => __( "'Palatino Linotype', 'Book Antiqua', Palatino, serif" ),
-					"Tahoma, Geneva, sans-serif"  							=> __( "Tahoma, Geneva, sans-serif" ),
-					"'Times New Roman', Times, serif"  						=> __( "'Times New Roman', Times, serif" ),
-					"'Trebuchet MS', Helvetica, sans-serif"  				=> __( "'Trebuchet MS', Helvetica, sans-serif" ),
-					"Verdana, Geneva, sans-serif"  							=> __( "Verdana, Geneva, sans-serif" ),
+					'"Open Sans",sans-serif'								=> __( '"Open Sans",sans-serif' ),
+					'"PT Sans",Arial' 										=> __( '"PT Sans",Arial' ),
+					'Arial, Helvetica, sans-serif' 							=> __( 'Arial, Helvetica, sans-serif' ),
+					'"Arial Black", Gadget, sans-serif'  					=> __( '"Arial Black", Gadget, sans-serif' ),
+					'"Bookman Old Style", serif'  							=> __( '"Bookman Old Style", serif' ),
+					'"Comic Sans MS", cursive'  							=> __( '"Comic Sans MS", cursive' ),
+					'Courier, monospace'  									=> __( 'Courier, monospace' ),
+					'Garamond, serif'  										=> __( 'Garamond, serif' ),
+					'Georgia, serif'  										=> __( 'Georgia, serif' ),
+					'Impact, Charcoal, sans-serif'  						=> __( 'Impact, Charcoal, sans-serif' ),
+					'"Lucida Console", Monaco, monospace'  					=> __( '"Lucida Console", Monaco, monospace' ),
+					'"Lucida Sans Unicode", "Lucida Grande", sans-serif'  	=> __( '"Lucida Sans Unicode", "Lucida Grande", sans-serif' ),
+					'"MS Sans Serif", Geneva, sans-serif'  					=> __( '"MS Sans Serif", Geneva, sans-serif' ),
+					'"MS Serif", "New York", sans-serif'  					=> __( '"MS Serif", "New York", sans-serif' ),
+					'"Palatino Linotype", "Book Antiqua", Palatino, serif'  => __( '"Palatino Linotype", "Book Antiqua", Palatino, serif' ),
+					'Tahoma, Geneva, sans-serif'  							=> __( 'Tahoma, Geneva, sans-serif' ),
+					'"Times New Roman", Times, serif'  						=> __( '"Times New Roman", Times, serif' ),
+					'"Trebuchet MS", Helvetica, sans-serif'  				=> __( '"Trebuchet MS", Helvetica, sans-serif' ),
+					'Verdana, Geneva, sans-serif'  							=> __( 'Verdana, Geneva, sans-serif' ),
 				)
 			)
 		));
