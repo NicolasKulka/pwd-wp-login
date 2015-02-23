@@ -1,17 +1,18 @@
 <?php
 /*
-  Plugin Name: PWD WP Login
-  Version: 1.0
-  Plugin URI: http://www.plateformewpdigital.fr/plugins/wp-login
-  Description: Modifiy your login page WordPress
-  Author: Plateforme WP Digital, Kulka Nicolas
-  Author URI: http://www.plateformewpdigital.fr
-  Domain Path: languages
-  Network: false
-  Text Domain: pwd-wp-login
+Plugin Name: PWD WP Login
+Version: 1.0
+Plugin URI: http://www.plateformewpdigital.fr/plugins/wp-login
+Description: Modifiy your login page WordPress
+Author: Plateforme WP Digital, Kulka Nicolas
+Author URI: http://www.plateformewpdigital.fr
+Domain Path: languages
+Network: false
+Text Domain: pwd-wp-login
  */
+
 // don't load directly
-if ( !defined( 'ABSPATH' ) ) {
+if ( ! defined( 'ABSPATH' ) ) {
 	die( '-1' );
 }
 
@@ -32,12 +33,12 @@ function _pwd_login_load_files( $dir, $files, $prefix = '' ) {
 }
 
 // Plugin client classes
-_pwd_login_load_files( PWD_LOGIN_DIR . 'classes/', array('plugin') );
+_pwd_login_load_files( PWD_LOGIN_DIR . 'classes/', array( 'plugin' ) );
 
 add_action( 'plugins_loaded', 'init_pwd_loginplugin' );
 function init_pwd_loginplugin() {
 
-    load_plugin_textdomain( 'pwd-wp-login', false, basename( dirname( __FILE__ ) ) . '/languages/' );
+	load_plugin_textdomain( 'pwd-wp-login', false, basename( dirname( __FILE__ ) ) . '/languages/' );
 
 	// Load client
 	new PWD_LOGIN_Plugin();
