@@ -1,9 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PWD WP Login\n"
-"POT-Creation-Date: 2015-02-22 20:39+0100\n"
-"PO-Revision-Date: 2015-02-22 20:39+0100\n"
-"Last-Translator: Kulka Nicolas <contact@plateformewpdigital.fr>\n"
+"Report-Msgid-Bugs-To: http://www.plateformewpdigital.fr/\n"
+"POT-Creation-Date: 2015-02-23 08:32:44+00:00\n"
+"PO-Revision-Date: 2015-02-23 09:36+0100\n"
+"Last-Translator: fxbenard | FxB <fx@fxbenard.com>\n"
 "Language-Team: Kulka Nicolas <contact@plateformewpdigital.fr>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
@@ -25,35 +26,35 @@ msgstr "Page de connexion"
 
 #: classes/plugin.php:38
 msgid "Login"
-msgstr "Login"
+msgstr "Connexion"
 
 #: classes/plugin.php:49
 msgid "Add a logo for the login page of your website"
-msgstr "Ajouter un logo pour la page de connexion de votre site web"
+msgstr "Ajouter un logo à la page de connexion de votre site web"
 
 #: classes/plugin.php:60
 msgid "Adjust the height of the logo"
-msgstr "Ajustez la hauteur du logo"
+msgstr "Ajuster la hauteur du logo"
 
 #: classes/plugin.php:71
 msgid "Adjust the width of the logo"
-msgstr "Ajustez la largeur du logo"
+msgstr "Ajuster la largeur du logo"
 
 #: classes/plugin.php:82
 msgid "Adjust the bottom margin of the logo"
-msgstr "Ajustez la marge en bas du logo"
+msgstr "Ajuster la marge en bas du logo"
 
 #: classes/plugin.php:93
 msgid "Adjust the background color of the login page"
-msgstr "Ajustez la couleur de fond de la page de connexion"
+msgstr "Ajuster la couleur de fond de la page de connexion"
 
 #: classes/plugin.php:104
 msgid "Adjust the color of the login page"
-msgstr "Ajustez la couleur de la page de connexion"
+msgstr "Ajuster la couleur de la page de connexion"
 
 #: classes/plugin.php:115
 msgid "Adjust font login page"
-msgstr "Ajustez la police de la page de connexion"
+msgstr "Ajuster la police de la page de connexion"
 
 #: classes/plugin.php:120
 msgid "'Open Sans',sans-serif"
@@ -130,3 +131,7 @@ msgstr ""
 #: classes/plugin.php:139
 msgid "Verdana, Geneva, sans-serif"
 msgstr ""
+
+#. Description of the plugin/theme
+msgid "Modifiy your login page WordPress"
+msgstr "Modifier la page de connexion WordPress"
