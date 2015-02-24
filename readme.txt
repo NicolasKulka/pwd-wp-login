@@ -18,10 +18,18 @@ Now easily change your login page for your WordPress site.
 
 If you love the plugin, please consider rating it and clicking on "it works" button.
 
+Come translate plugin : (https://www.transifex.com/projects/p/pwd-wp-login/)
+
 = Français =
 Modifier facilement votre page de login pour votre site WordPress.
 
 Si vous aimez le plugin, laisser une évaluation et cliquer sur ​​le bouton «it works».
+
+Venez traduire le plugin : (https://www.transifex.com/projects/p/pwd-wp-login/)
+
+= Localization =
+* French
+* English
 
 = My Links =
 
@@ -49,6 +57,7 @@ Si vous aimez le plugin, laisser une évaluation et cliquer sur ​​le bouton 
 == Screenshots ==
 
 1. Modify your login page
+1. Modifier votre page de connexion
 
 == Changelog ==
 
