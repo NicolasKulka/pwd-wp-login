@@ -14,6 +14,8 @@ class PWD_LOGIN_Plugin {
 
 		add_filter( 'login_headerurl', array( __CLASS__, 'pwd_login_login_headerurl' ) );
 		add_filter( 'login_headertitle', array( __CLASS__, 'pwd_login_login_headertitle' ) );
+
+		add_filter( 'plugin_row_meta', array( __CLASS__, 'pwd_login_plugin_row_meta' ), 99, 2 );
 	}
 
 	public static function pwd_login_login_headerurl() {
@@ -180,5 +182,15 @@ class PWD_LOGIN_Plugin {
 		}
 		return $return;
 	}
+
+	public static function pwd_login_plugin_row_meta( $links, $file ) {
+
+        if ( strstr( 'pwd-wp-login/pwd-wp-login.php', $file ) != '' ) {
+            // Link to the plugin config page
+            $links[] = '<a href="' . admin_url( 'customize.php' ) . '">' . __( 'Settings' ) . '</a>';
+        }
+     
+        return $links;
+    }
 
 }
