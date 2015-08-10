@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [main]
 host = https://www.transifex.com
 
@@ -6,3 +7,14 @@ file_filter = languages/pwd-wp-login-<lang>.po
 source_file = languages/pwd-wp-login.pot
 source_lang = en_US
 type = PO
+||||||| merged common ancestors
+=======
+[main]
+host = https://www.transifex.com
+
+[pwd-wp-login.pwd-wp-login]
+file_filter = languages/pwd-wp-login-<lang>.po
+source_file = languages/pwd-wp-login.pot
+source_lang = en_US
+type = PO
+>>>>>>> update 1.3
