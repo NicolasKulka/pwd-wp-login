@@ -3,9 +3,9 @@ Contributors: plateforme-wp-digital, nicolaskulka
 Author URI: http://www.plateformewpdigital.fr
 Plugin URL: http://www.plateformewpdigital.fr/plugins
 Requires at Least: 3.2
-Tested Up To: 4.3
+Tested Up To: 4.4
 Tags: admin, branding, custom login, custom login pro, customization, customizer, error, login, login customizer, login error, login logo, login page, logo, wp-admin, wp-login
-Stable tag: 1.3
+Stable tag: 1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -33,6 +33,9 @@ Venez traduire le plugin : (https://www.transifex.com/projects/p/pwd-wp-login/)
 * Swedish
 * Portuguese
 * Chinese
+* Lithuanian
+* Russian
+* German
 
 = My Links =
 
@@ -74,6 +77,8 @@ Venez traduire le plugin : (https://www.transifex.com/projects/p/pwd-wp-login/)
 = 1.2 =
 * Added translation files Portuguese
 
-= 1.2 =
+= 1.3 =
 * Added translation files Chinese
-* Update tested up to 4.3
+
+= 1.4 =
+* Added translation files Lithuanian, German and Russian

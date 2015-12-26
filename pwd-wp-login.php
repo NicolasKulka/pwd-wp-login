@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: PWD WP Login
-Version: 1.3
+Version: 1.4
 Plugin URI: http://www.plateformewpdigital.fr/plugins/wp-login
 Description: Modifiy your login page WordPress
 Author: Plateforme WP Digital, Kulka Nicolas
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Plugin constants
-define( 'PWD_LOGIN_VERSION', '1.2' );
+define( 'PWD_LOGIN_VERSION', '1.4' );
 define( 'PWD_LOGIN_FOLDER', 'pwd-wp-login' );
 
 define( 'PWD_LOGIN_URL', plugin_dir_url( __FILE__ ) );
